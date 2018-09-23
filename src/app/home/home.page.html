@@ -1,13 +1,13 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      <span class="fade" [style.opacity]="titleOpacity">My Apps</span>
+    <ion-title class="fade" [style.opacity]="titleOpacity">
+      My Apps
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  <h1 #header class="fade" [style.opacity]="headerOpacity">
+<ion-content padding [scrollEvents]="true" (ionScroll)="onScroll($event)">
+  <h1 class="fade" [style.opacity]="headerOpacity">
     My Apps
   </h1>
 
