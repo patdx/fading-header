@@ -1,69 +1,37 @@
-<ion-header>
+<ion-header class="fade" [style.opacity]="ionHeaderOpacity">
   <ion-toolbar>
-    <ion-title class="fade" [style.opacity]="titleOpacity">
+    <ion-title class="fade" [style.opacity]="ionTitleOpacity">
       My Apps
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding [scrollEvents]="true" (ionScroll)="onScroll($event)">
-  <h1 class="fade" [style.opacity]="headerOpacity">
+
+  <h1 #h1 class="fade" [style.opacity]="h1Opacity">
     My Apps
   </h1>
 
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra
-    molestie sollicitudin. Nullam egestas ligula fringilla, rhoncus ex sit
-    amet,
-    malesuada eros. Pellentesque habitant morbi tristique senectus et netus et
-    malesuada fames ac turpis egestas. Maecenas ullamcorper feugiat lorem eu
-    fringilla. Maecenas ligula elit, ultrices quis porttitor eget, malesuada
-    vitae quam. Cras placerat urna id tempor semper. Praesent at ligula ut
-    libero
-    sollicitudin tristique eget eu arcu. Vivamus orci erat, lacinia nec diam
-    ac,
-    iaculis feugiat magna. Nam hendrerit egestas mi sit amet tincidunt.
-    Vestibulum bibendum egestas hendrerit. Orci varius natoque penatibus et
-    magnis dis parturient montes, nascetur ridiculus mus.
-  </p>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>
+        Fading Header Example
+      </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        Try scrolling up in both Android and iOS modes.
+      </p>
+    </ion-card-content>
+  </ion-card>
 
-  <p>
-    Sed dictum ante id risus posuere hendrerit. Duis imperdiet elit nisl, sit
-    amet vulputate orci pellentesque quis. Aliquam non eleifend massa. Aenean
-    volutpat maximus urna in aliquet. Duis at accumsan massa. Sed tristique
-    tellus at eros aliquam laoreet. Integer ut varius tortor.
-  </p>
-
-  <p>
-    Donec ullamcorper eleifend condimentum. Ut tincidunt posuere nisi, vitae
-    vulputate dolor rutrum vitae. Praesent vel nunc auctor, tempor neque
-    finibus,
-    luctus velit. Nam maximus mauris nec eros imperdiet, ut viverra lacus
-    egestas. Curabitur pulvinar felis vitae placerat mattis. Praesent faucibus
-    posuere ligula, at venenatis ex. Nunc porttitor ligula vel sem mattis,
-    vitae
-    maximus nulla tempor. Vestibulum ante ipsum primis in faucibus orci luctus
-    et
-    ultrices posuere cubilia Curae; Suspendisse potenti. Morbi pretium tempor
-    feugiat. Duis bibendum ultrices maximus. In facilisis libero sit amet nibh
-    facilisis, vel eleifend justo efficitur. Nam non bibendum lorem. Nulla quis
-    dui vel lacus aliquam ornare. Donec vitae leo tristique, auctor arcu nec,
-    pretium velit. In hac habitasse platea dictumst.
-  </p>
-
-  <p>
-    Proin hendrerit interdum felis sed semper. Cras venenatis lacinia metus
-    posuere bibendum. Morbi eu congue tellus. Integer iaculis dolor eget lorem
-    maximus vulputate. Mauris eu leo aliquet turpis pretium fringilla sed ac
-    magna. Praesent tincidunt dui ac sem tincidunt molestie. Vestibulum
-    convallis
-    sit amet mi volutpat sodales. Pellentesque egestas luctus iaculis.
-    Curabitur
-    bibendum sem nisi, vitae varius lectus porttitor a. Cras in nisl et quam
-    malesuada dictum non ac sem. Vestibulum suscipit justo a ipsum egestas,
-    vitae
-    dapibus nulla maximus. Sed a ante at nibh aliquam viverra ut vitae velit.
-    Vestibulum rutrum lorem vitae justo finibus, vel tempus leo sagittis.
-  </p>
+  <ion-card *ngFor="let item of items">
+    <ion-card-header>
+      <ion-card-title>{{ item.name }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ item.content }}</p>
+    </ion-card-content>
+  </ion-card>
 
 </ion-content>
