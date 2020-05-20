@@ -10,7 +10,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "format-ts": "prettier --write \"**/*.ts\""
+    "format-ts": "prettier --write \"**/*.ts\"",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "private": true,
   "dependencies": {
@@ -27,9 +29,10 @@
     "@ionic/angular": "4.0.0-beta.11",
     "core-js": "^2.5.3",
     "faker": "^4.1.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.12",
     "rxjs": "6.3.2",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.26",
+    "snyk": "^1.323.0"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.8.3",
@@ -61,5 +64,6 @@
     "tslint": "~5.11.0",
     "typescript": "^2.9.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "snyk": true
 }
