@@ -6,3 +6,60 @@ patch:
   SNYK-JS-LODASH-567746:
     - lodash:
         patched: '2020-05-20T01:05:13.227Z'
+    - '@ionic/schematics-angular > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - karma > lodash:
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > html-webpack-plugin > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > stats-webpack-plugin > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > webpack-merge > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@ionic/ng-toolkit > @ionic/cli-framework > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > node-sass > sass-graph > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > source-map-loader > async > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > async > lodash:
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > webpack-dev-server > http-proxy-middleware > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@ionic/ng-toolkit > @ionic/cli-framework > inquirer > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-types > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > node-sass > gaze > globule > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > lodash:
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-generator > babel-types > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-traverse > babel-types > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-types > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@angular-devkit/build-angular > istanbul-instrumenter-loader > istanbul-lib-instrument > babel-template > babel-traverse > babel-types > lodash':
+        patched: '2020-05-20T05:02:54.362Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-05-20T05:02:54.362Z'
+    - karma-coverage-istanbul-reporter > istanbul-api > istanbul-lib-instrument > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-05-20T05:02:54.362Z'
+  SNYK-JS-TREEKILL-536781:
+    - '@angular-devkit/build-angular > tree-kill':
+        patched: '2020-05-20T05:02:54.362Z'
+    - '@ionic/ng-toolkit > @ionic/cli-framework > tree-kill':
+        patched: '2020-05-20T05:02:54.362Z'
