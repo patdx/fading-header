@@ -29,8 +29,7 @@
     "faker": "^4.1.0",
     "lodash": "^4.17.15",
     "rxjs": "6.3.2",
-    "zone.js": "^0.8.26",
-    "snyk": "^1.323.0"
+    "zone.js": "^0.8.26"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.8.9",
@@ -62,6 +61,5 @@
     "tslint": "~5.11.0",
     "typescript": "^2.9.2"
   },
-  "description": "An Ionic project",
-  "snyk": true
+  "description": "An Ionic project"
 }
