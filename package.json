@@ -43,7 +43,7 @@
     "@ionic/ng-toolkit": "^1.0.0",
     "@ionic/schematics-angular": "^1.0.0",
     "@types/faker": "^4.1.12",
-    "@types/jasmine": "~2.8.6",
+    "@types/jasmine": "~3.5.10",
     "@types/jasminewd2": "~2.0.8",
     "@types/lodash": "^4.14.116",
     "@types/node": "~14.0.5",
