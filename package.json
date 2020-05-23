@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "format-package-json": "prettier-package-json --write",
     "format-ts": "prettier --write \"**/*.ts\"",
-    "preinstall": "npm-force-resolutions",
+    "preinstall": "npx npm-force-resolutions",
     "lint": "ng lint",
     "ng": "ng",
     "start": "ng serve",
