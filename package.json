@@ -30,7 +30,7 @@
     "lodash": "^4.17.12",
     "rxjs": "6.3.2",
     "zone.js": "^0.8.26",
-    "snyk": "^1.323.0"
+    "snyk": "^1.324.0"
   },
   "devDependencies": {
     "@angular-devkit/architect": "~0.8.9",
