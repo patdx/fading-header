@@ -4,7 +4,7 @@ import {
   ElementRef,
   ViewChild
 } from "@angular/core";
-import { Content } from "@ionic/angular";
+import { IonContent } from "@ionic/angular";
 import { company as fakerCompany, lorem as fakerLorem } from "faker";
 import { startCase, times } from "lodash";
 
@@ -15,8 +15,8 @@ import { startCase, times } from "lodash";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomePage {
-  @ViewChild(Content, { static: true })
-  content: Content;
+  @ViewChild(IonContent, { static: true })
+  content: IonContent;
 
   @ViewChild("h1", { static: true })
   h1: ElementRef;
