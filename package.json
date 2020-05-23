@@ -10,9 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "format-ts": "prettier --write \"**/*.ts\"",
-    "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "format-ts": "prettier --write \"**/*.ts\""
   },
   "private": true,
   "dependencies": {
