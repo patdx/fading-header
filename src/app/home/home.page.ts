@@ -15,10 +15,10 @@ import { startCase, times } from "lodash";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HomePage {
-  @ViewChild(Content)
+  @ViewChild(Content, { static: true })
   content: Content;
 
-  @ViewChild("h1")
+  @ViewChild("h1", { static: true })
   h1: ElementRef;
 
   /** <ion-header> controls the shadow on Android devices  */
