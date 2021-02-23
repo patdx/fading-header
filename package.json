@@ -56,7 +56,7 @@
     "karma-coverage-istanbul-reporter": "3.0.3",
     "karma-jasmine": "4.0.1",
     "karma-jasmine-html-reporter": "1.5.4",
-    "npm-force-resolutions": "0.0.3",
+    "npm-force-resolutions": "0.0.4",
     "prettier": "2.2.1",
     "prettier-package-json": "2.1.3",
     "protractor": "7.0.0",
